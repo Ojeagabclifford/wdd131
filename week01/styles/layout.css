@@ -74,9 +74,7 @@ a{
 
     
 }
-li a::visted{
-    background-color: rgb(1, 18, 18);
-}
+
 
 li a:hover{
     background-color: rgb(233, 231, 237);
