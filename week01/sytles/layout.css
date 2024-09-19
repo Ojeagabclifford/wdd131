@@ -13,7 +13,7 @@ body{
     grid-template: 20% 60% 25%/ auto 60% auto;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;}
 
 header{
     grid-column: 1/4;
