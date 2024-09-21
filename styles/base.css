@@ -1,0 +1,228 @@
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+}
+
+
+
+.NavLinks{
+    text-decoration: none;
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+li a {
+    display: inline;
+    text-align:left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+a:visted{
+    background-color: rgb(246, 28, 53);
+}
+
+li a:hover{
+    background-color: rgb(233, 231, 237);
+    color: black;
+
+}
+
+a:visited{
+    background-color: rgb(2, 2, 11);
+    color: red;
+}
+
+
+
+/* header section up */
+
+main{
+    display: grid;
+    grid-template: auto auto/ 70% 30%;
+    column-gap: 10px;
+    margin-top: 10;
+    margin-left: 20px;
+   
+    
+}
+
+.cards{
+    grid-column: 1/2;
+    /* height: 600px; */
+    text-align:letf;
+    border: 1px solid #333;
+    border-radius: 1%;
+
+    
+    
+    
+}
+
+h1:hover{
+    color: #6e5c5c;
+}
+
+h2{
+   
+    text-align: center;
+    background-color: rgb(179, 159, 159);
+    
+    margin: 0%;
+    padding: 10;
+    border-radius: 4% 3% 0 0;
+    text-transform: capitalize;
+    font-size: larger;
+    
+}
+
+
+
+/* img:not(#image){
+    width: 500px%;
+    height: auto;
+    float: right;
+    border: 1px solid black;
+    margin: 0 10px;
+} */
+
+#profile{
+    width: 130px;
+    height: auto;
+    float: right;
+    border: 1px solid black;
+    margin: 0 10px;
+    box-shadow: 20px;
+}
+
+
+.aboutTopContent{
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+#counName{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+    width:80% ;
+    margin-left: 10%;
+    background-color: white;
+    /* margin-right: 50%; */
+}
+
+
+
+
+.countryflag{
+    width: 130px;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+}
+
+
+.aboutmycountry{
+    margin-top: 40px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+.card1{
+    /* background-color: aqua; */
+    border: 1px solid black;
+    border-radius: 2%;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+
+
+.devtoollinks li a:hover{
+    background-color: rgb(74, 5, 214);
+    color: rgb(109, 20, 20);
+    margin-left: 0%;
+
+}
+
+.devtoollinks li {
+    margin: 10px;
+    color: black;
+    text-decoration:underline;
+    margin-left: 0%;
+    margin-top: 20px;
+
+}
+
+.devtoollinks {
+    margin-top: 30%;
+    margin-left: 0%;
+    width: 50%;
+    
+}
+
+.devtoollinks a {
+    color: black;
+    margin-left: 0%;
+    padding: 2px;
+    /* text-decoration:overline */
+}
+
+
+
+.Officail{
+    margin-left: 17px;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+.devtoollinks a:visited{
+    color: red;
+    background-color: red;
+}
+
+
+
+highlight {
+	color: navy;
+	font-weight: 700;
+}
