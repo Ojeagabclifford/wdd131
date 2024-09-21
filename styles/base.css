@@ -30,21 +30,23 @@ header{
 }
 
 
-li a {
-    display: inline;
+a {
+    display: block;
     text-align:left;
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 10%;
+    margin: 0%;
+    padding: 15px;
+    flex: 1 1 100%;
+    /* border-radius: 10%; */
 }
 
 /* a:visted{
     background-color: rgb(246, 28, 53);
 } */
 
-li a:hover{
+a:hover{
     background-color: rgb(233, 231, 237);
     color: black;
 
@@ -171,12 +173,9 @@ footer{
 
 
 
-.devtoollinks li a:hover{
-    background-color: rgb(74, 5, 214);
-    color: rgb(109, 20, 20);
-    margin-left: 0%;
 
-}
+
+
 
 .devtoollinks li {
     margin: 10px;
@@ -219,6 +218,11 @@ footer{
     color: red;
     background-color: red;
 }
+
+
+.devtoollinks a:hover{
+    background-color: rgb(233, 231, 237);
+    color: black;}
 
 
 
