@@ -10,15 +10,16 @@ body{
 }
 
 header{
-    background-color: aqua;
+    background-color: #8ab9a9;
     text-align: center;
+    font-size: 1rem;
 }
 
 
 
 .NavLinks{
     text-decoration: none;
-    background-color: #333;
+    background-color:#d3b39e;
     height: 50px;
     display: flex;
     list-style-type: none;
@@ -34,7 +35,8 @@ a {
     display: block;
     text-align:left;
     text-align: center;
-    color: white;
+    color: #22213d;
+    font-size: larger;
     text-decoration: none;
     margin: 0%;
     padding: 15px;
@@ -47,14 +49,14 @@ a {
 } */
 
 a:hover{
-    background-color: rgb(233, 231, 237);
-    color: black;
+    background-color: #ff955c;
+    color: #042222;
 
 }
 
 a:visited{
-    background-color: rgb(2, 2, 11);
-    color: red;
+    color:#990001;
+
 }
 
 
@@ -85,7 +87,8 @@ main{
 }
 
 h1:hover{
-    color: #6e5c5c;
+    color: #1e475c;
+    text-align: center;
 }
 
 h2{
@@ -194,9 +197,11 @@ footer{
 }
 
 .devtoollinks a {
-    color: black;
+    color: rgb(11, 20, 192);
     margin-left: 0%;
     padding: 2px;
+    font-size: larger;
+    /* background-color: #170099; */
     /* text-decoration:overline */
 }
 
@@ -215,8 +220,7 @@ footer{
 }
 
 .devtoollinks a:visited{
-    color: red;
-    background-color: red;
+ color: #990001;
 }
 
 
