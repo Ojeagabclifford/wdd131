@@ -1,0 +1,52 @@
+@media (min-width: 37.5em) {
+    body{
+        font-family: "Roboto", sans-serif;
+    }
+    
+    header{
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: space-around;
+        background-color: #073669;
+        height: 60px;
+        text-align: center;
+        align-items: center;
+        color:#D4E2F1;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .navigation {
+		flex-direction: row;
+	}
+
+	nav a {
+		display: block;
+        
+
+       
+		
+	}
+    h1{
+        text-align: center;
+    }
+
+
+    .picturesdiv{
+        display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 25px;place-items: center;
+
+    }
+
+    img{
+        max-width: 100%;
+  height: auto;
+    }
+
+    figure{
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        
+    }
