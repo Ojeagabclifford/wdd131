@@ -33,7 +33,11 @@ nav a:hover {
 	color: #333;
 	font-weight: 700;
 }
-    
+
+h1{
+	font-size: 1.5rem;
+	text-align: center;
+}
 
 #menu {
 	font-size: 1.5rem;
