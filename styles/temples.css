@@ -77,6 +77,9 @@ figure{
 .picturesdiv{
 	margin: auto;
 }
+figcaption {
+	color: #073669;
+  }
 
 
 footer{
