@@ -35,8 +35,6 @@
         padding-bottom: 5px;
         font-size: small;
         box-shadow: var(--blue);
-        
-        
     }
 
     .data>h3{
@@ -77,15 +75,6 @@
         font-size: small;
         border: 0;
         box-shadow: var(--blue);
-
-
-
-
-        
-        
-        
-        
-    
         
     }
     #wind-chill{
@@ -115,9 +104,9 @@
 
 
 
-}
-footer{
-    top:100;
-}
 
+footer{
+    top:100px;
+}
+}
 
