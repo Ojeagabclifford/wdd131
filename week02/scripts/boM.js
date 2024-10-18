@@ -7,6 +7,7 @@ button.addEventListener('click', function(){if (input.value.trim() !== '') {
         const deleteButton = document.createElement('button');
 
         li.textContent = input.value;
+        
         deleteButton.textContent = '❌';
 
         deleteButton.addEventListener('click', function () {
@@ -22,3 +23,9 @@ button.addEventListener('click', function(){if (input.value.trim() !== '') {
         input.value = '';
     }
 });
+
+const fullName = (first, last) => {
+    return`${first} ${last}`;}
+
+
+console.log(fullName('s','s'))
