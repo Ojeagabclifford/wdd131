@@ -1,0 +1,50 @@
+@media (min-width: 806px) {
+    body{
+        font-family: "Roboto", sans-serif;
+    }
+    
+    header{
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: space-around;
+        background-color: #073669;
+        height: 60px;
+        text-align: center;
+        align-items: center;
+        color:#D4E2F1;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .navigation {
+		flex-direction: row;
+	}
+
+	nav a {
+		display: block;
+        padding-left: 35px;
+        padding-right: 35px;
+        
+
+       
+		
+	}
+    h2{
+        text-align: center;
+    }
+
+
+    .picturesdiv{
+        display:grid; grid-template-columns: repeat(auto-fit,310px);
+        justify-content: center;
+        gap: 15px;
+   padding: 0;
+
+	margin: 0;
+}
+    
+
+
+}

@@ -11,6 +11,14 @@ hamButton.addEventListener('click', () => {
 
 
 
+function setActive(activeLink) {
+    //sets active navigation
+    const links = document.querySelectorAll(".links");
+    links.forEach((link) => link.classList.remove(".active"));
+    activeLink.classList.toggle("active");
+}
+
+
 
 
 
