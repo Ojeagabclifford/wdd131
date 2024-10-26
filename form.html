@@ -19,7 +19,7 @@
         </h1>
     </header>
     <main>
-        <form action="review.html" method="get">
+        <form action="review.html" method="get" class="required">
             <fieldset>
                 <label for="productName">Product Name * </label>
                 <select name="productName" id="productName" required>
@@ -29,7 +29,7 @@
             </fieldset>
          
             <fieldset>
-                <legend>Overall Rating*</legend>
+                <legend required>Overall Rating*</legend>
                 <div class="stars">
 
                     <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
