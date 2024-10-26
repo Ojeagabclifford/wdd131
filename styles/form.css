@@ -61,19 +61,19 @@ form{
 }
 
 .required input:required{
-    border-left: 10px solid red;
+    border-bottom: 10px solid red;
 }
 
 .required input:required:valid{
-    border-left: 10px solid green;
+    border-bottom: 10px solid green;
 }
 
 .required select:required{
-    border-left: 10px solid red;
+    border-bottom: 10px solid red;
 }
 
 .required select:required:valid{
-    border-left: 10px solid green;
+    border-bottom: 10px solid green;
 }
 
 
