@@ -6,6 +6,22 @@ button.addEventListener('click', function(){if (input.value.trim() !== '') {
         const li = document.createElement('li');
         const deleteButton = document.createElement('button');
 
+
+
+        const chaptersArray = getChapterList() ||[];
+            if (chaptersArray==0){
+                console.log('first visit')
+            }
+        
+        chaptersArra.forEach(chapter => {
+            displayWindChill(chapter);
+            
+        });
+        
+
+
+    
+
         li.textContent = input.value;
         
         deleteButton.textContent = '❌';
@@ -24,8 +40,4 @@ button.addEventListener('click', function(){if (input.value.trim() !== '') {
     }
 });
 
-const fullName = (first, last) => {
-    return`${first} ${last}`;}
 
-
-console.log(fullName('s','s'))

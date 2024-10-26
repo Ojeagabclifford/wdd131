@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Product Review
+        </h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <fieldset>
+                <label for="productName">Product Name * </label>
+                <select name="productName" id="productName" required>
+                    <option disabled selected value="">Choose a Product ...</option>
+                </select>
+                
+            </fieldset>
+         
+            <fieldset>
+                <legend>Overall Rating*<legend>
+                <div class="stars">
+
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <legend>Date of Installation*</legend>
+                   <input type="date" id="date" name="date" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <legend>Which features did you find useful in the product<br>(check all that apply)</legend>
+                   <label> <input type="checkbox" id="drability" name="durability">Durability</label>
+                   <label> <input type="checkbox" id="ease" name="ease" >Ease of Use</label>
+                   <label> <input type="checkbox" id="performance" name="performance" >Performance</label>
+                   <label> <input type="checkbox" id="design" name="design" >Design</label>
+
+
+                </div>
+             
+            </fieldset>
+            <fieldset>
+                <div>
+
+                   <label>Write Review <span > (Optional)</span> <textarea name="Written" id="writtenreview" cols="20" rows="3"></textarea></label>
+                </div>
+             
+            </fieldset>
+            <fieldset>
+                <div>
+
+                   <label > Your Name<span > (Optional)</span>  <input type="text" id="name" name="name"></label>
+                </div>
+             
+            </fieldset>
+            <fieldset>
+                <div>
+
+                   <input type="submit" class="review" id="submitButton" name="review" value="Post Review" required>
+                </div>
+             
+            </fieldset>
+         
+        </form>
+    </main>
+    <footer>
+        <p>©2024🎗Ojeaga Benjamin Clifford 🎗Nigeira</p>
+        
+        <P id="currentyear">Last Modification:04/30/2024 15:54:24</P>
+    </footer>
+</body>
+</html>

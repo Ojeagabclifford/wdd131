@@ -7,8 +7,21 @@ function calculateWindChill(temp, windSpeed) {
     } else {
         
         return 'N/A';
+        
     }
 }
+
+law = 1+2
+
+
+
+console.log(calculateWindChill(3,4)
+)
+
+
+
+
+
 
 function displayWindChill() {
     const temp = 50; 

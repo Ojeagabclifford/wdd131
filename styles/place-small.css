@@ -25,6 +25,10 @@ body{
     margin-left: 40%;
     margin-right: 50%;
 }
+form{
+    background-color: aliceblue;
+    width: 200px;
+}
 
 
 

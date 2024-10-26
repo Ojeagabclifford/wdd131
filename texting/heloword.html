@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1 id="mY"></h1></div>
+  
+  
+    <script>
+     
+  
+  
+      const sum = (callback)=>{
+          
+          callback();
+  
+      }
+  
+      const diplaypae = tota =>
+          document.getElementById('mY').textContent = `love number `;
+
+      sum(diplaypae)
+      
+
+      function fetchData(callback) {
+        // using setTimeout to simulate fetching data from a server
+        setTimeout(() => {
+          // This calls the 'callback' function and passes data to it.
+          callback('Data has been fetched');
+        }, 4000); // This simulates a 2-second delay from a service.
+      }
+      
+      // function that processes the data
+      function processData(data) {
+        alert(data);
+      }
+      
+      // Call the fetchData function and pass the processData function as an argument.
+       fetchData(processData);
+
+
+       const myobj ={
+        name: 'Clifford',
+        hobbie:['eat', 'sleep', 'laugh', fetchData(processData)]
+
+       }
+
+
+       const love = myobj.hobbie;
+
+    for( love )
+
+
+      
+  
+  
+     </script>
+    
+</body>
+</html>
