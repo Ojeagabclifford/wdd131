@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #D8E3F3;
+    --secoundery-color: #EFFDFF;
+    --accenst1-color: #201E53;
+    --accent2-color: #0F1011;
+    --accent4-color: #CEAD2E;
+
+    --header:700;
+    --p:400;
+    
+  }
+  
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h2{
+    font-weight: 300;
+   
+}
+.header-name{
+    border-bottom: 1px solid black;
+}
+
+p{
+    font-weight: var(--p);
+}
+
+.colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin: 0;
+}
+
+
+.colors p{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0;
+}
+
+.color1{
+    background-color: var(--primary-color);
+
+}
+.color2{
+    background-color: var(--secoundery-color);
+
+}
+.color3{
+    background-color: var(--accenst1-color);
+    color: var(--secoundery-color);
+
+}
+.color4{
+    background-color: var(--accent2-color);
+    color: var(--secoundery-color);
+
+}
+
+.color6{
+    background-color: var(--accent4-color);
+
+}
+
+
