@@ -120,6 +120,13 @@
         }
     }
     
+
+    header p{
+        text-wrap: wrap;
+    }
+    .copy-right{
+        text-wrap: wrap;
+    }
     
     
     main{
