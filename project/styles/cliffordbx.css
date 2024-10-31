@@ -27,6 +27,13 @@ opacity:0 ;
         opacity: 1;
     }
 }
+header h1{
+    text-wrap: wrap;
+}
+
+.copy-right p{
+    text-wrap: wrap;
+}
 
   .network{
     margin-bottom: 20px;
