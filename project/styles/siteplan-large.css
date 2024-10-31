@@ -110,6 +110,12 @@ opacity:0 ;
 }
 
 
+.other-links a{
+    padding: 20px;
+    margin: 10px;
+}
+
+
     
 .network{
     grid-column: 1/2;

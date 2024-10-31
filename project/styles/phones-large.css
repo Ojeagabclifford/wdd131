@@ -301,6 +301,12 @@
         }
     }
     
+
+    .other-links a{
+        padding: 20px;
+        margin: 10px;
+        
+    }
     footer{
         display: grid;
         grid-template-columns: auto 400px auto;

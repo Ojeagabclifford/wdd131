@@ -300,6 +300,12 @@
         }
     }
     
+    .other-links a{
+        padding: 20px;
+        margin: 10px;
+        
+    }
+    
     
     .card{
         display: flex;

@@ -31,7 +31,7 @@
         display: flex;
         flex: 1 1 100%;
         justify-content: space-around;
-        background-color: #DBE2E9;
+        background-color:var(--primary-color);
         height: 100px;
         text-align: center;
         align-items: center;
@@ -46,7 +46,13 @@
         text-wrap: nowrap;
     }
     
-    
+    .other-links a{
+        padding: 20px;
+        margin: 10px;
+        
+    }
+
+
     .active{
         background-color: #010105;
         

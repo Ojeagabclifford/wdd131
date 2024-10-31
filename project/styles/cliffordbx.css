@@ -1,10 +1,5 @@
 @media (max-width: 901px){
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 
-}
 
 :root {
     --primary-color: #D8E3F3;
@@ -17,6 +12,12 @@ body{
     --p:400;
     
   }
+  body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
   @keyframes fade{
     0%{
 opacity:0 ;
@@ -35,7 +36,7 @@ header{
     display: flex;
     flex: 1 1 100%;
     justify-content: space-around;
-    background-color: #DBE2E9;
+    background-color:var(--primary-color);
     height: 100px;
     text-align: center;
     align-items: center;
@@ -44,7 +45,7 @@ header{
 }
 
 .active{
-    background-color: #010105;
+    background-color: var(--accent2-color);
     
 }
 
@@ -66,11 +67,11 @@ header{
 
 
 .network a{
-    background-color: #01080F;
+    background-color:var(--accent2-color);
     padding: 15px;
     text-decoration: none;
-    color: #F1EB67;
-    border: 2px solid  #F1EB67;
+    color:var(--accent4-color);
+    border: 2px solid  var(--accent4-color);
     border-radius: 10px;
     box-shadow: 5px 5px 5px;
     margin-right: 3px;
@@ -80,11 +81,18 @@ header{
 
 .network a:hover{
     background-color: #121212;
-	color: #F1EB67;
+	color:var(--accent4-color);
 	font-weight: 700;
     margin-left: 10px;
     
 
+}
+
+
+.other-links a{
+    padding: 20px;
+    margin: 10px;
+    
 }
 
 footer{
@@ -97,7 +105,7 @@ footer{
 
 
 footer p{
-    color: white;
+    color: var(--secoundery-color);
     margin: 0;
 }
 
@@ -112,8 +120,8 @@ footer p{
     background-color: #01080F;
     padding: 15px;
     text-decoration: none;
-    color: #F1EB67;
-    border: 2px solid  #F1EB67;
+    color:var(--accent4-color);
+    border: 2px solid var(--accent4-color);
     border-radius: 10px;
     box-shadow: 5px 5px 5px;
     margin-right: 3px;
@@ -123,7 +131,7 @@ footer p{
 
 .network a:hover{
     background-color: #121212;
-	color: #F1EB67;
+	color: var(--accent4-color);
 	font-weight: 700;
     margin-left: 10px;
     
@@ -146,7 +154,7 @@ footer p{
 
 footer a:hover{
     
-	color: #F1EB67;
+	color:var(--accent4-color);
 
     
 
@@ -183,7 +191,7 @@ footer{
 
 
     
-    background-color:#EFFDFF;
+    background-color:var(--primary-color);
     
     
 }
@@ -193,7 +201,7 @@ footer{
 .copy-right{
     grid-column: 1/4;
     grid-row:2 ;
-    color: #01080F;
+    color:var(--accent2-color);
     display: flex;
     
     margin-left: auto;
@@ -228,7 +236,7 @@ footer{
     font-weight: 200;
     padding: 2px;
     text-decoration: none;
-    color: white;
+    color: var(--secoundery-color);
     
 
 }
@@ -244,7 +252,7 @@ footer{
 h1{
     margin:auto;
     text-wrap: wrap;
-    color: #080800;
+    color: var(--accent2-color);
     
 }
 
@@ -279,24 +287,11 @@ nav a{
 
 
 nav a:hover{
-    background-color: #bbb;
-	color: #333;
+    background-color:var(--primary-color);
+	color:var(--accent2-color);
 	font-weight: 700;
     border-radius: 10px;
     opacity: 0.5;
-}
-
-
-.seacrh{
-    display: flex;
-    text-align: center;
-    width: max-content;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px;
-    padding: 8px;
-    background-color: white;
-    
-
 }
 
 
