@@ -31,6 +31,18 @@ opacity:0 ;
   .network{
     margin-bottom: 20px;
 }
+imgh{
+    width: 100%;
+}
+
+
+.hero-img{
+    width: 69%;
+}
+
+main{
+    height:830px;
+}
 
 header{
     display: flex;

@@ -86,19 +86,15 @@ header a:hover{
     position: relative;
 }
 
-
-
-.seacrh{
-    display: flex;
-    text-align: center;
-    width: max-content;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px;
-    padding: 8px;
-    background-color: white;
-    
-
+.imgh{
+    width: 100%;
 }
+
+
+.hero-img{
+    width: 69%;
+}
+
 @keyframes fade{
     0%{
 opacity:0 ;
@@ -167,7 +163,7 @@ opacity:0 ;
     
 }
 main{
-    height:770px;
+    height:830px;
 }
 
 h1{
