@@ -169,6 +169,11 @@ footer p{
     
 
 } */
+.top{
+    position: sticky;
+    top: 0;
+}
+
 
 
 footer a:hover{

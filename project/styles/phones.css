@@ -299,6 +299,11 @@
             opacity: 1;
         }
     }
+    .top{
+        position: sticky;
+        top: 0;
+    }
+    
     
     .other-links a{
         padding: 20px;

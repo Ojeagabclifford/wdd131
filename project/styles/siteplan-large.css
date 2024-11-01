@@ -163,6 +163,10 @@ opacity:0 ;
     
 }
 
+.top{
+    position: sticky;
+    top: 0;
+}
 
 h1{
     grid-column: 1/2;

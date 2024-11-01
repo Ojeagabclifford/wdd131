@@ -302,6 +302,11 @@
     }
     
 
+    .top{
+        position: sticky;
+        top: 0;
+    }
+    
     .other-links a{
         padding: 20px;
         margin: 10px;
